@@ -3,7 +3,7 @@
     $userAge = '25';
     $userEmail = 'makarovemd@gmail.com';
     $userCity = 'Белая Церковь';
-    $userAbout = 'Учусь но професию веб-разработчика';
+    $userAbout = 'Учусь на професии веб-разработчик';
 ?>
 
 <style>
