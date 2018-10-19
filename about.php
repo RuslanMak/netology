@@ -6,39 +6,51 @@
     $userAbout = 'Учусь на професии веб-разработчик';
 ?>
 
-<style>
-    dl {
-        display: table-row;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  
+  <style>
+      dl {
+          display: table-row;
+      }
 
-    dt, dd {
-        display: table-cell;
-        padding: 5px 10px;
-    }
-</style>
-<h1>Страница пользователя <?= $userName ?></h1>
+      dt, dd {
+          display: table-cell;
+          padding: 5px 10px;
+      }
+  </style>
+</head>
+<body>
+  <h1>Страница пользователя <?= $userName ?></h1>
 
-<dl>
-    <dt>Имя</dt>
-    <dd><?= $userName ?></dd>
-</dl>
+  <dl>
+      <dt>Имя</dt>
+      <dd><?= $userName ?></dd>
+  </dl>
 
-<dl>
-    <dt>Возраст</dt>
-    <dd><?= $userAge ?></dd>
-</dl>
+  <dl>
+      <dt>Возраст</dt>
+      <dd><?= $userAge ?></dd>
+  </dl>
 
-<dl>
-    <dt>Адрес электронной почты</dt>
-    <dd><a href="<?= $userEmail ?>"><?= $userEmail ?></a></dd>
-</dl>
+  <dl>
+      <dt>Адрес электронной почты</dt>
+      <dd><a href="<?= $userEmail ?>"><?= $userEmail ?></a></dd>
+  </dl>
 
-<dl>
-    <dt>Город</dt>
-    <dd><?= $userCity ?></dd>
-</dl>
+  <dl>
+      <dt>Город</dt>
+      <dd><?= $userCity ?></dd>
+  </dl>
 
-<dl>
-    <dt>О себе</dt>
-    <dd><?= $userAbout ?></dd>
-</dl>
+  <dl>
+      <dt>О себе</dt>
+      <dd><?= $userAbout ?></dd>
+  </dl>
+</body>
+</html>
+
+
